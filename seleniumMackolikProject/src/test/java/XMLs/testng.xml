@@ -1,0 +1,9 @@
+<suite name="Selenium Mackolik Project">
+    <test name="Check to 2016/2017 PL Champion">
+        <classes>
+            <class name="Tests.BaseTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[User clicks Table Button SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[User selects the league SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[User selects a Season of the League SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[User selects a 2016/2017 League Champion SUCCESSFULLY]]>
+    </line>
+    <line>
+      <![CDATA[User checks the Champion SUCCESSFULLY]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-06-06T20:03:59 TRT" name="Tests.BaseTest" finished-at="2022-06-06T20:04:05 TRT" duration-ms="6169">
+    <groups>
+    </groups>
+    <test started-at="2022-06-06T20:03:59 TRT" name="Command line test" finished-at="2022-06-06T20:04:05 TRT" duration-ms="6169">
+      <class name="Tests.BaseTest">
+        <test-method is-config="true" signature="setDriver()[pri:0, instance:Tests.BaseTest@7c417213]" started-at="2022-06-06T20:03:52 TRT" name="setDriver" finished-at="2022-06-06T20:03:59 TRT" duration-ms="6911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="clickTableButton()[pri:1, instance:Tests.BaseTest@7c417213]" started-at="2022-06-06T20:03:59 TRT" name="clickTableButton" finished-at="2022-06-06T20:04:00 TRT" duration-ms="1251" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User clicks Table Button SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickTableButton -->
+        <test-method signature="selectLeague()[pri:2, instance:Tests.BaseTest@7c417213]" started-at="2022-06-06T20:04:00 TRT" name="selectLeague" finished-at="2022-06-06T20:04:01 TRT" duration-ms="1191" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User selects the league SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectLeague -->
+        <test-method signature="selectSeason()[pri:3, instance:Tests.BaseTest@7c417213]" started-at="2022-06-06T20:04:01 TRT" name="selectSeason" finished-at="2022-06-06T20:04:03 TRT" duration-ms="2150" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User selects a Season of the League SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectSeason -->
+        <test-method signature="selectChampion()[pri:4, instance:Tests.BaseTest@7c417213]" started-at="2022-06-06T20:04:03 TRT" name="selectChampion" finished-at="2022-06-06T20:04:03 TRT" duration-ms="63" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User selects a 2016/2017 League Champion SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectChampion -->
+        <test-method signature="checkChampion()[pri:5, instance:Tests.BaseTest@7c417213]" started-at="2022-06-06T20:04:03 TRT" name="checkChampion" finished-at="2022-06-06T20:04:05 TRT" duration-ms="1486" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User checks the Champion SUCCESSFULLY]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkChampion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.BaseTest@7c417213]" started-at="2022-06-06T20:04:05 TRT" name="tearDown" finished-at="2022-06-06T20:04:05 TRT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.BaseTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Tests.BaseTest -->
+</testng-results>

@@ -1,0 +1,6 @@
+Drivers\DriverPage.class
+Pages\EnglandTablePage.class
+Pages\HomePage.class
+Pages\LeagueTablesPage.class
+Pages\ChampionTeamPage.class
+Tests\BaseTest.class
